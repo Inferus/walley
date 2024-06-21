@@ -20,6 +20,7 @@ createWeb3Modal({
   projectId,
   enableAnalytics: true, // Optional - defaults to your Cloud configuration
   enableOnramp: true, // Optional - false as default
+  themeMode: "light",
 });
 
 export default function Web3ModalProvider({

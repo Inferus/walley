@@ -19,8 +19,10 @@ export default function Home() {
   ];
 
   return (
-    <main>
-      <ConnectButton></ConnectButton>
+    <main className="container mx-auto pt-5">
+      <div className="flex justify-end">
+        <ConnectButton></ConnectButton>
+      </div>
     </main>
   );
 }
